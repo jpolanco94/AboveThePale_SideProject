@@ -15,7 +15,7 @@ Above The Pale works in a similar fahsion. It is designed to connect those that 
 
 # Users
 ## App Perspective From A Volunteer
-Someone who wishes to help will be able to create an account. With a [verified]() account they will be able to set a point on Google Maps where they wish to provide aid. This can be anywhere from their own homes if they wish to the parking lot of a Wal-Mart. They will be able to specify exactly what it is they are providing. Other users of this app will be able to see where this point is and what is exactly being provided. This can range anywhere from clothing, food, a warm shower, company, a place to stay, or even employment.
+Someone who wishes to help will be able to create an account. With a [verified](extra-information) account they will be able to set a point on Google Maps where they wish to provide aid. This can be anywhere from their own homes if they wish to the parking lot of a Wal-Mart. They will be able to specify exactly what it is they are providing. Other users of this app will be able to see where this point is and what is exactly being provided. This can range anywhere from clothing, food, a warm shower, company, a place to stay, or even employment.
 
 ## App Perspective From Someone In Need
 Someone who has the app and is just looking for aid will not have an account. They will just have access to a map with locations of those willing to provide aid.
