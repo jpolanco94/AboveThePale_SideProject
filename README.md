@@ -34,7 +34,10 @@ Even though this project is one I've wanted to build for a long time and just a 
  [Top](#table-of-contents)
 
 # Wireframe Sketches
-Work In Progress
+The homepage of my app will display a map that takes up most, if not all, of the space. People who are not logged in will be able to see markers put in by other users and will be able to get directions to that marker. They will also have an option to create an accoount if that want to volunteer, however this will not affect the users ability to see markers placed by volunteers.
+
+A volunteer will have the ability to place a marker on the map for a specific amount of time and place information about their marker. This is roughly what I want it to look like for a volunteer.
+![VLI](https://github.com/jpolanco94/AboveThePale_SideProject/blob/master/Documentation/VolunteerHomePage.jpeg)
 
 [Top](#table-of-contents)
 
