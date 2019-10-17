@@ -23,6 +23,9 @@ Someone who has the app and is just looking for aid will not have an account. Th
 ## From a Junior Software Developer Perspective
 Even though this project is one I've wanted to build for a long time and just a side project, it will allow me to learn a lot of new useful skills. One of those is how to work with the Google Maps API. The Google Maps API will be most of the UI/UX. It is widely used and intuitive for most people. It is also easy to understand and learn for those unfamiliar with it. I will also attempt to make my app using Blazor. This is in order to better learn how to use it and to stay ahead of the curve. Most of my challanges come from learning how to properly use these tools.
 
+### Use Case Diagram
+![UCD](https://github.com/jpolanco94/AboveThePale_SideProject/blob/master/Documentation/AboveThePale_UseCaseDiagram.jpeg)
+
 [Top](#table-of-contents)
 
 # Tools and Implementation
