@@ -48,11 +48,11 @@ A volunteer will have the ability to place a marker on the map for a specific am
 [Top](#table-of-contents)
 
 # Progress and Challenges
- Work In Progress
+So far I have been able to implement the Google Maps API to display a map on my homepage. That is about as far as I have gotten with any coding. My next step will be completing a requirements traceability matrix. This is so that I can better organize what it is I need to get done, and at which priority. This will also help me get rid of any unnecessary requirements, and develop test cases for my requirements. 
  
  [Top](#table-of-contents)
 
 # Extra Information
- Work In Progress
+
  
  [Top](#table-of-contents)
