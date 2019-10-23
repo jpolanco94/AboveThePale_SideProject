@@ -1,0 +1,28 @@
+﻿@model Marker
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script>
+        navigator.geolocation.getCurrentPosition(userPosition);
+        function userPosition(position) {
+            var lat = position.coords.latitude;
+            document.getElementById("Latitude").value = lat;
+            var long = position.coords.longitude;
+            document.getElementById("Longitude").value = long;
+            var lata = position.coords.latitude;
+            document.getElementById("LatitudeA").value = lat;
+            var longa = position.coords.longitude;
+            document.getElementById("LongitudeA").value = long;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <input type="text" asp-for="Description" />
+        <input type="hidden" name="Latitude" id="LatitudeA" />
+        <input type="hidden" name="Longitude" id="LongitudeA" />
+        <button type="submit" class="btn btn-secondary">Set Up Marker</button>
+    </div>
+</body>
+</html>

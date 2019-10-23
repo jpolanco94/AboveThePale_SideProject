@@ -44,7 +44,7 @@ namespace AboveThePale2
                 opts.Password.RequireNonAlphanumeric = true;
                 opts.Password.RequireLowercase = true;
                 opts.Password.RequireUppercase = true;
-                opts.Password.RequireDigit = false;
+                opts.Password.RequireDigit = true;
             }).AddEntityFrameworkStores<AppIdentityDbContext>()
             .AddDefaultTokenProviders();
 
@@ -62,6 +62,7 @@ namespace AboveThePale2
             app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
             app.UseAuthentication();
+            app.UseAuthorization();
             AppIdentityDbContext.CreateAdminAccount(app.ApplicationServices,
                 Configuration).Wait();
             app.UseRouting();

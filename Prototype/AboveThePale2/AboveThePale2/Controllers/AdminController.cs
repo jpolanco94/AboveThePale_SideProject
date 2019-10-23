@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace AboveThePale2.Controllers
 {
-    [Authorize(Roles = "Admins")]
     public class AdminController : Controller
     {
         private UserManager<AppUser> userManager;

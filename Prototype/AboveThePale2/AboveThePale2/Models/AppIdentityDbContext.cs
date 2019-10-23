@@ -15,6 +15,8 @@ namespace AboveThePale2.Models
     {
         public AppIdentityDbContext(DbContextOptions<AppIdentityDbContext> options)
             : base(options) { }
+        public DbSet<Volunteer> Volunteers { get; set; }
+        public DbSet<Marker> Markers { get; set; }
 
         public static async Task CreateAdminAccount(IServiceProvider serviceProvider,
             IConfiguration configuration)
@@ -26,7 +28,7 @@ namespace AboveThePale2.Models
 
             string username = configuration["Data:AdminUser:Name"];
             string email = configuration["Data:AdminUser:Email"];
-            string password = configuration["Data:AdminUser:Email"];
+            string password = configuration["Data:AdminUser:Password"];
             string role = configuration["Data:AdminUser:Role"];
 
             if(await userManager.FindByNameAsync(username) == null)

@@ -33,7 +33,7 @@ namespace AboveThePale2.Infrastructure
                 errors.Add(new IdentityError
                 {
                     Code = "PasswordContainsSequence",
-                    Description = "Password cannot containt numeric sequence"
+                    Description = "Password cannot contain numeric sequence"
                 });
             }
             if (password.Contains("!@#$%^"))

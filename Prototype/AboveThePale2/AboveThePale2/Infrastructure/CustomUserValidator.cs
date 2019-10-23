@@ -19,9 +19,9 @@ namespace AboveThePale2.Infrastructure
                 new List<IdentityError>() : result.Errors.ToList();
             
             if(!user.Email.ToLower().EndsWith("@outlook.com")
-                || !user.Email.ToLower().EndsWith("@example.com")
-                || !user.Email.ToLower().EndsWith("@yahoo.com")
-                || !user.Email.ToLower().EndsWith("@gmail"))
+                && !user.Email.ToLower().EndsWith("@example.com")
+                && !user.Email.ToLower().EndsWith("@yahoo.com")
+                && !user.Email.ToLower().EndsWith("@gmail"))
             {
                 errors.Add(new IdentityError
                 {
