@@ -2,6 +2,7 @@
 ### Table Of Contents
 * [Description](#what-is-above-the-pale)
 * [App Users](#users)
+* [Challenges](#challenges)
 * [Tools and Implementation](#tools-and-implementation)
 * [Wireframe Sketches](#wireframe-sketches)
 * [Progress](#progress-and-challenges)
@@ -28,6 +29,11 @@ Even though this project is one I've wanted to build for a long time and just a 
 
 [Top](#table-of-contents)
 
+# Challenges
+There are many issues that arise with the basic concept behind this app that don't have much to do with coding. The first issue that may arise is that since this app is base on WarmShowers it is assumed that you will be volunteering your home to be used by strangers. This is not the case. You don't need to volunteer you home or even be anywhere near your home in order to help others using this app. Another common problem I see others mention is the fact that most people in need don't have access to an internet connection or even a phone. This is a valid issue but one that has many solutions. Since these issues aren't based around my coding I won't elaborate too much on those solutions.
+
+[Top](#table-of-contents)
+
 # Tools and Implementation
  Work In Progress
  
@@ -42,11 +48,11 @@ A volunteer will have the ability to place a marker on the map for a specific am
 [Top](#table-of-contents)
 
 # Progress and Challenges
- Work In Progress
+So far I have been able to implement the Google Maps API to display a map on my homepage. That is about as far as I have gotten with any coding. My next step will be completing a requirements traceability matrix. This is so that I can better organize what it is I need to get done, and at which priority. This will also help me get rid of any unnecessary requirements, and develop test cases for my requirements. 
  
  [Top](#table-of-contents)
 
 # Extra Information
- Work In Progress
+
  
  [Top](#table-of-contents)
